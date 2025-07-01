@@ -1,4 +1,4 @@
 package assessment.manager.services.interfaces;
 
-public interface UserController {
+public interface UserService {
 }

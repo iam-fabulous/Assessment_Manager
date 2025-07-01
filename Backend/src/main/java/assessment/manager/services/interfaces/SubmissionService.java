@@ -1,4 +1,6 @@
 package assessment.manager.services.interfaces;
 
-public interface SubmissionService {
+import assessment.manager.data.models.Submission;
+
+public interface SubmissionService  {
 }
