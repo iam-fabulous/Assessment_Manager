@@ -5,25 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a334413-8604-400e-b7fa-ce6fa683e2f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/zencoder-chat-index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/zencoder/chats/d03143b8-8c7a-412e-97a4-4e227722da1d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dto/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/security/AuthenticatedUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/security/CustomAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/security/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Component/DashBoard/DashBoard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Component/Home/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Component/Home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Component/Home/NavBar/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Component/LoginForm/Auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Component/LoginForm/LoginForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Dashboard_Features/Features.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Dashboard_Features/Features.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/Dashboard_Features/Testimonials.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/public/assessment.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/types/daisyui.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/enums/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/enums/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/AssessmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/AssessmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/assessment_management_system/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/assessment_management_system/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/assessment_management_system/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/assessment_management_system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/assessment_management_system/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/assessment_management_system/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,32 +55,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.zencoder-patch-add-chat-message-raw-content&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.zencoder-patch-chat-storage-migration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.zencoder-patch-generate-chat-message-id&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.zencoder-patch-migrate-custom-instruction&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/implement__register&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/Assessment_Management_Sysytem/Backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.zencoder-patch-add-chat-message-raw-content": "true",
+    "RunOnceActivity.zencoder-patch-chat-storage-migration": "true",
+    "RunOnceActivity.zencoder-patch-generate-chat-message-id": "true",
+    "RunOnceActivity.zencoder-patch-migrate-custom-instruction": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "Merging feature/implement__register",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/Desktop/Assessment_Management_Sysytem/Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Backend" />
@@ -115,7 +121,7 @@
       <workItem from="1751406034423" duration="15841000" />
       <workItem from="1751456179417" duration="4854000" />
       <workItem from="1751464401887" duration="3570000" />
-      <workItem from="1751468131405" duration="18090000" />
+      <workItem from="1751468131405" duration="27120000" />
     </task>
     <servers />
   </component>
@@ -152,6 +158,7 @@
         <entry key="$PROJECT_DIR$/pom.xml" value="1751480130324" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/Main.java" value="1751410539808" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/RegisterController.java" value="1751483730186" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Profile.java" value="1751487802104" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/User.java" value="1751481630517" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/AssessmentRepo.java" value="1751394740513" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/OptionRepo.java" value="1751394740513" />
@@ -166,19 +173,21 @@
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/JwtAuthenticationFilter.java" value="1751483130083" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/JwtUtil.java" value="1751485530107" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/SecurityConfig.java" value="1751486130121" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" value="1751394740513" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" value="1751394740513" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" value="1751483430088" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" value="1751394740513" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" value="1751483430088" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" value="1751488704392" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/AssessmentService.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" value="1751487802104" />
         <entry key="$PROJECT_DIR$/src/main/resources/application.properties" value="1751473529842" />
       </map>
     </option>
-    <option name="lastCommitHash" value="1751486131904" />
-    <option name="lastIndexTimestamp" value="1751486130121" />
-    <option name="repoAccumulatedChanges" value="225" />
+    <option name="lastCommitHash" value="1751488712282" />
+    <option name="lastError" value="Connect timed out" />
+    <option name="lastIndexTimestamp" value="1751488704392" />
+    <option name="repoAccumulatedChanges" value="233" />
     <option name="repoTotalFiles" value="31" />
     <option name="repositoryId" value="3b12433d-24d6-4e4e-af42-3272c1870e2a" />
-    <option name="state" value="FULLY_INDEXED" />
+    <option name="state" value="INDEXING_FAILED" />
   </component>
 </project>
