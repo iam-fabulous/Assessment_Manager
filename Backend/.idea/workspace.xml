@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a334413-8604-400e-b7fa-ce6fa683e2f9" name="Changes" comment="" />
+    <list default="true" id="2a334413-8604-400e-b7fa-ce6fa683e2f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="feature/implement_login" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
@@ -22,25 +37,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.zencoder-patch-add-chat-message-raw-content&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.zencoder-patch-chat-storage-migration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.zencoder-patch-generate-chat-message-id&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.zencoder-patch-migrate-custom-instruction&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;updatedProjectStructure&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/Assessment_Management_Sysytem/Backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.zencoder-patch-add-chat-message-raw-content": "true",
+    "RunOnceActivity.zencoder-patch-chat-storage-migration": "true",
+    "RunOnceActivity.zencoder-patch-generate-chat-message-id": "true",
+    "RunOnceActivity.zencoder-patch-migrate-custom-instruction": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "feature/implement__register",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/Desktop/Assessment_Management_Sysytem/Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="assessment.manager.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assessment.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,15 +99,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751388405791</updated>
-      <workItem from="1751388409382" duration="3235000" />
+      <workItem from="1751388409382" duration="4442000" />
+      <workItem from="1751406034423" duration="15841000" />
+      <workItem from="1751456179417" duration="4854000" />
+      <workItem from="1751464401887" duration="3570000" />
+      <workItem from="1751468131405" duration="27120000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="ai.zencoder.plugin.mcp">
     <option name="internalToolsState" value="{&quot;file_search&quot;:true,&quot;fulltext_search&quot;:true}" />
+  </component>
+  <component name="ai.zencoder.plugin.rag.RepoInfoWarningState">
+    <option name="currentWarningState" value="true" />
+    <option name="lastCheckTime" value="1751409798145" />
   </component>
   <component name="ai.zencoder.plugin.rag.settings">
     <option name="desiredChunkSizeBytes" value="4194304" />
@@ -82,24 +136,38 @@
     <option name="indexedFilesMap">
       <map>
         <entry key="$PROJECT_DIR$/.gitignore" value="1751388417928" />
-        <entry key="$PROJECT_DIR$/pom.xml" value="1751388893984" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/Main.java" value="1751388594872" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/AssessmentRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/OptionRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/QuestionRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/SubmissionRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/UserRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserController.java" value="1751393840385" />
+        <entry key="$PROJECT_DIR$/.zencoder/.gitignore" value="1751409939385" />
+        <entry key="$PROJECT_DIR$/pom.xml" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/Main.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/RegisterController.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Profile.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/User.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/AssessmentRepo.java" value="1751394740513" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/OptionRepo.java" value="1751394740513" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/QuestionRepo.java" value="1751394740513" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/SubmissionRepo.java" value="1751394740513" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/UserRepo.java" value="1751394740513" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dto/RegisterRequest.java" value="1751472930233" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/enums/UserRole.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/AuthenticatedUser.java" value="1751481630517" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/CustomAuthenticationEntryPoint.java" value="1751486130121" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/CustomUserDetailsService.java" value="1751483130083" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/JwtAuthenticationFilter.java" value="1751483130083" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/JwtUtil.java" value="1751485530107" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/SecurityConfig.java" value="1751486130121" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/AssessmentService.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" value="1751487802104" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/resources/application.properties" value="1751473529842" />
       </map>
     </option>
-    <option name="lastCommitHash" value="1751393843762" />
-    <option name="lastIndexTimestamp" value="1751393840385" />
-    <option name="repoAccumulatedChanges" value="44" />
-    <option name="repoTotalFiles" value="27" />
+    <option name="lastCommitHash" value="1751532338366" />
+    <option name="lastIndexTimestamp" value="1751532336572" />
+    <option name="repoAccumulatedChanges" value="241" />
+    <option name="repoTotalFiles" value="31" />
     <option name="repositoryId" value="3b12433d-24d6-4e4e-af42-3272c1870e2a" />
     <option name="state" value="FULLY_INDEXED" />
   </component>
