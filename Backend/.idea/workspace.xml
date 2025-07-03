@@ -4,20 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a334413-8604-400e-b7fa-ce6fa683e2f9" name="Changes" comment="" />
+    <list default="true" id="2a334413-8604-400e-b7fa-ce6fa683e2f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/AnsweredQuestionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/AutoGradeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/CreateAssessmentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/RandomizeOptionsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/RandomizeQuestionsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/SetCorrectAnswerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/SetTimerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/AssessmentListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/AssessmentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/GradeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/OptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/QuestionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/AssessmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/AssessmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Assessment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Assessment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/AssessmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/AssessmentService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iam-fabulous&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/iam-fabulous/Assessment_Management_Sysytem.git&quot;,
+    &quot;accountId&quot;: &quot;e2c641d5-e4a9-4b71-9e1e-f8b380f4c3ba&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2zHWIHKCqgm1LrpNdvPS9NA4mrr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +77,8 @@
     &quot;RunOnceActivity.zencoder-patch-chat-storage-migration&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.zencoder-patch-generate-chat-message-id&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.zencoder-patch-migrate-custom-instruction&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;updatedProjectStructure&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#5 on full__project__setup&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/Assessment_Management_Sysytem/Backend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -38,14 +86,15 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
       </set>
     </attachedChunks>
   </component>
@@ -58,11 +107,18 @@
       <option name="presentableId" value="Default" />
       <updated>1751388405791</updated>
       <workItem from="1751388409382" duration="3235000" />
+      <workItem from="1751493528911" duration="1439000" />
+      <workItem from="1751520964720" duration="2366000" />
+      <workItem from="1751523605793" duration="5300000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="ai.zencoder.plugin.mcp">
     <option name="internalToolsState" value="{&quot;file_search&quot;:true,&quot;fulltext_search&quot;:true}" />
@@ -82,24 +138,52 @@
     <option name="indexedFilesMap">
       <map>
         <entry key="$PROJECT_DIR$/.gitignore" value="1751388417928" />
-        <entry key="$PROJECT_DIR$/pom.xml" value="1751388893984" />
+        <entry key="$PROJECT_DIR$/.zencoder/.gitignore" value="1751523094383" />
+        <entry key="$PROJECT_DIR$/pom.xml" value="1751528845151" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/Main.java" value="1751388594872" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/AssessmentRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/OptionRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/QuestionRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/SubmissionRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/UserRepo.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" value="1751393840385" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserController.java" value="1751393840385" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/AssessmentController.java" value="1751529745054" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/SubmissionController.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/UserController.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/AnsweredQuestion.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Assessment.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Option.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Profile.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Question.java" value="1751529745054" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Submission.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/User.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/AssessmentRepo.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/OptionRepo.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/QuestionRepo.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/SubmissionRepo.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/UserRepo.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/AnsweredQuestionRequest.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/AutoGradeRequest.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/CreateAssessmentRequest.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/RandomizeOptionsRequest.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/RandomizeQuestionsRequest.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/SetCorrectAnswerRequest.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/requests/SetTimerRequest.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/AssessmentListResponse.java" value="1751524207456" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/AssessmentResponse.java" value="1751524207456" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/GradeResponse.java" value="1751529745054" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/OptionResponse.java" value="1751524207456" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dtos/responses/QuestionResponse.java" value="1751524207456" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/enums/QuestionType.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/enums/SubmissionStatus.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/enums/UserRole.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/exceptions/UnauthorizedException.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" value="1751529745054" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/AssessmentService.java" value="1751529745054" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" value="1751520995892" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" value="1751520995892" />
       </map>
     </option>
-    <option name="lastCommitHash" value="1751393843762" />
-    <option name="lastIndexTimestamp" value="1751393840385" />
-    <option name="repoAccumulatedChanges" value="44" />
-    <option name="repoTotalFiles" value="27" />
+    <option name="lastCommitHash" value="1751529827659" />
+    <option name="lastIndexTimestamp" value="1751529745054" />
+    <option name="repoAccumulatedChanges" value="139" />
+    <option name="repoTotalFiles" value="40" />
     <option name="repositoryId" value="3b12433d-24d6-4e4e-af42-3272c1870e2a" />
     <option name="state" value="FULLY_INDEXED" />
   </component>
