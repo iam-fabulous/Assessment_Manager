@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a334413-8604-400e-b7fa-ce6fa683e2f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dto/request/VerifyEmailRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dto/response/OtpVerificationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/OtpModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/OtpRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/OtpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/OtpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/MailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/mail/Recipient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/mail/SendEmailRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/mail/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AppUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zencoder-chat-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zencoder-chat-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/dto/request/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,7 +70,7 @@
     "RunOnceActivity.zencoder-patch-migrate-custom-instruction": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Main.executor": "Run",
-    "git-widget-placeholder": "feature/implement__register",
+    "git-widget-placeholder": "fix/auth",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/DELL/Desktop/Assessment_Management_Sysytem/Backend",
     "node.js.detected.package.eslint": "true",
@@ -63,8 +82,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="assessment.manager.services.implementations" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="assessment.manager.Main" />
       <extension name="coverage">
@@ -77,11 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -119,7 +138,7 @@
   </component>
   <component name="ai.zencoder.plugin.rag.RepoInfoWarningState">
     <option name="currentWarningState" value="true" />
-    <option name="lastCheckTime" value="1751409798145" />
+    <option name="lastCheckTime" value="1751536457472" />
   </component>
   <component name="ai.zencoder.plugin.rag.settings">
     <option name="desiredChunkSizeBytes" value="4194304" />
@@ -137,36 +156,56 @@
       <map>
         <entry key="$PROJECT_DIR$/.gitignore" value="1751388417928" />
         <entry key="$PROJECT_DIR$/.zencoder/.gitignore" value="1751409939385" />
-        <entry key="$PROJECT_DIR$/pom.xml" value="1751532336572" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/Main.java" value="1751532336572" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/RegisterController.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/pom.xml" value="1751547854232" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/Main.java" value="1751536455859" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/controllers/RegisterController.java" value="1751538254082" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/Profile.java" value="1751487802104" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/User.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/models/User.java" value="1751536455859" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/AssessmentRepo.java" value="1751394740513" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/OptionRepo.java" value="1751394740513" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/QuestionRepo.java" value="1751394740513" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/SubmissionRepo.java" value="1751394740513" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/data/repositories/UserRepo.java" value="1751394740513" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dto/RegisterRequest.java" value="1751472930233" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/enums/UserRole.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dto/request/RegisterRequest.java" value="1751538254082" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dto/request/VerifyEmailRequest.java" value="1751538254082" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dto/request/mail/Recipient.java" value="1751543954124" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dto/request/mail/SendEmailRequest.java" value="1751544254124" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dto/request/mail/Sender.java" value="1751543954124" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/dto/response/OtpVerificationResponse.java" value="1751538254082" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/enums/UserRole.java" value="1751536455859" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/mail/mailRequest/MailService.java" value="1751542754121" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/mail/mailRequest/MailServiceImpl.java" value="1751545154141" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/mail/mailRequest/mail/Recipient.java" value="1751545154141" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/mail/mailRequest/mail/SendEmailRequest.java" value="1751545154141" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/mail/mailRequest/mail/Sender.java" value="1751545154141" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/OtpModel.java" value="1751540054082" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/OtpRepository.java" value="1751540954082" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/OtpService.java" value="1751540954082" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/OtpServiceImpl.java" value="1751542754121" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/MailService.java" value="1751546354131" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/MailServiceImpl.java" value="1751554154455" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/mail/Recipient.java" value="1751546354131" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/mail/SendEmailRequest.java" value="1751545154141" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/opt/mailRequest/mail/Sender.java" value="1751545154141" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/AuthenticatedUser.java" value="1751481630517" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/CustomAuthenticationEntryPoint.java" value="1751486130121" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/CustomUserDetailsService.java" value="1751483130083" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/JwtAuthenticationFilter.java" value="1751483130083" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/JwtUtil.java" value="1751485530107" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/security/SecurityConfig.java" value="1751486130121" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AppUtilities.java" value="1751547254418" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/AssessmentServiceImpl.java" value="1751487802104" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/SubmissionServiceImpl.java" value="1751487802104" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" value="1751532336572" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/implementations/UserServiceImpl.java" value="1751554154455" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/AssessmentService.java" value="1751487802104" />
         <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/SubmissionService.java" value="1751487802104" />
-        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" value="1751532336572" />
-        <entry key="$PROJECT_DIR$/src/main/resources/application.properties" value="1751473529842" />
+        <entry key="$PROJECT_DIR$/src/main/java/assessment/manager/services/interfaces/UserService.java" value="1751538254082" />
+        <entry key="$PROJECT_DIR$/src/main/resources/application.properties" value="1751553554797" />
       </map>
     </option>
-    <option name="lastCommitHash" value="1751532338366" />
-    <option name="lastIndexTimestamp" value="1751532336572" />
-    <option name="repoAccumulatedChanges" value="241" />
+    <option name="lastCommitHash" value="1751554156264" />
+    <option name="lastIndexTimestamp" value="1751554154455" />
+    <option name="repoAccumulatedChanges" value="341" />
     <option name="repoTotalFiles" value="31" />
     <option name="repositoryId" value="3b12433d-24d6-4e4e-af42-3272c1870e2a" />
     <option name="state" value="FULLY_INDEXED" />

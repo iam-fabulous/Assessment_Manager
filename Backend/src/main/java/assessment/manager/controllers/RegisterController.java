@@ -2,7 +2,7 @@ package assessment.manager.controllers;
 
 import assessment.manager.data.models.User;
 import assessment.manager.data.repositories.UserRepo;
-import assessment.manager.dto.RegisterRequest;
+import assessment.manager.dto.request.RegisterRequest;
 import assessment.manager.services.implementations.UserServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
