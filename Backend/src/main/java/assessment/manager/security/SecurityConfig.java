@@ -23,7 +23,7 @@ public class SecurityConfig {
 
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
     private final CustomAuthenticationEntryPoint authenticationEntryPoint;
-    private final String[] allowedEndpoints = {"/api/admin/register"};
+    private final String[] allowedEndpoints = {"/api/admin/register", "/api/v1/assessments/**"};
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
@@ -61,6 +61,22 @@ public class SecurityConfig {
 //
 //        return http.build();
     }
+
+//    @Bean
+//    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+//        return http
+//                .csrf(AbstractHttpConfigurer::disable)
+//                .exceptionHandling(exceptionHandling ->
+//                        exceptionHandling.authenticationEntryPoint(authenticationEntryPoint))
+//                .sessionManagement(session ->
+//                        session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+//                .authorizeHttpRequests(authorize ->
+//                        authorize
+//                                .anyRequest()
+//                                .permitAll())  // ✅ Allow all endpoints temporarily
+//                .build();
+//    }
+
 
     @Bean
     public PasswordEncoder passwordEncoder() {
