@@ -17,6 +17,7 @@ import java.util.List;
 public class Question {
     @Id
     private String id;
+    private String assessmentId;
     private String text;
     private List<String> optionIds;
     private String correctOptionId;

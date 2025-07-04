@@ -13,4 +13,5 @@ import java.util.List;
 @Builder
 public class AssessmentListResponse {
     private List<AssessmentResponse> assessments;
+    private int totalCount;
 }

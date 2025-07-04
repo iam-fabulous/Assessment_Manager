@@ -11,4 +11,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class GradeResponse {
     private int grade;
+    private int totalQuestions;
+    private int correctAnswers;
 }

@@ -23,44 +23,60 @@ public class SecurityConfig {
 
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
     private final CustomAuthenticationEntryPoint authenticationEntryPoint;
-    private final String[] allowedEndpoints = {"/api/admin/register"};
+    private final String[] allowedEndpoints = {"/api/admin/register", "/api/v1/assessments/**"};
+
+    //@Bean
+//    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+//        return http
+//                .csrf(AbstractHttpConfigurer::disable)
+//                .exceptionHandling(exceptionHandling ->
+//                        exceptionHandling.authenticationEntryPoint( authenticationEntryPoint ))
+//                .sessionManagement(session ->
+//                        session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+//                .authorizeHttpRequests(authorize ->
+//                        authorize.requestMatchers(allowedEndpoints)
+//                                .permitAll()
+//                                .anyRequest()
+//                                .authenticated())
+//                .addFilterBefore( jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class )
+//                .build();
+//
+////        http
+////
+////    .csrf(csrf -> csrf.disable())
+////                .authorizeHttpRequests(auth -> auth
+////                        .requestMatchers("/", "/error").permitAll()
+////                        .requestMatchers("/api/auth/**").permitAll()
+////                        .requestMatchers("/api/admin/register").permitAll() // TEMP: allow admin registration without token
+////                        .requestMatchers("/api/admin/**").hasRole("ADMIN")
+////                        .requestMatchers("/api/creator/**").hasRole("CREATOR")
+////                        .requestMatchers("/api/participant/**").hasRole("PARTICIPANT")
+////                        .anyRequest().authenticated() // all others require auth
+////                )
+////                .sessionManagement(session -> session
+////                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS) // stateless JWT
+////                )
+////                .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+////        // Add JWT filter
+////
+////        return http.build();
+//    }
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
                 .csrf(AbstractHttpConfigurer::disable)
                 .exceptionHandling(exceptionHandling ->
-                        exceptionHandling.authenticationEntryPoint( authenticationEntryPoint ))
+                        exceptionHandling.authenticationEntryPoint(authenticationEntryPoint))
                 .sessionManagement(session ->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authorize ->
-                        authorize.requestMatchers(allowedEndpoints)
-                                .permitAll()
+                        authorize
                                 .anyRequest()
-                                .authenticated())
-                .addFilterBefore( jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class )
+                                .permitAll())  // ✅ Allow all endpoints temporarily
                 .build();
-
-//        http
-//
-//    .csrf(csrf -> csrf.disable())
-//                .authorizeHttpRequests(auth -> auth
-//                        .requestMatchers("/", "/error").permitAll()
-//                        .requestMatchers("/api/auth/**").permitAll()
-//                        .requestMatchers("/api/admin/register").permitAll() // TEMP: allow admin registration without token
-//                        .requestMatchers("/api/admin/**").hasRole("ADMIN")
-//                        .requestMatchers("/api/creator/**").hasRole("CREATOR")
-//                        .requestMatchers("/api/participant/**").hasRole("PARTICIPANT")
-//                        .anyRequest().authenticated() // all others require auth
-//                )
-//                .sessionManagement(session -> session
-//                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS) // stateless JWT
-//                )
-//                .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
-//        // Add JWT filter
-//
-//        return http.build();
     }
+
 
     @Bean
     public PasswordEncoder passwordEncoder() {
