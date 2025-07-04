@@ -1,8 +1,7 @@
 package assessment.manager.data.models;
 
 import assessment.manager.enums.UserRole;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
+
 import lombok.Data;
 import lombok.Getter;
 import org.springframework.data.annotation.Id;
@@ -18,7 +17,6 @@ public class User {
     private String id;
     private String email;
     private String password;
-    @Enumerated(EnumType.STRING)
     private UserRole role;
     private boolean isEnabled;
 }
