@@ -1,8 +1,8 @@
 package assessment.manager.opt;
 
 import assessment.manager.data.models.User;
-import jakarta.persistence.Id;
 import lombok.*;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
