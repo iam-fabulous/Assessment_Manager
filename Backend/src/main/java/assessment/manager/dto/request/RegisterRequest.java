@@ -1,4 +1,4 @@
-package assessment.manager.dto;
+package assessment.manager.dto.request;
 
 import assessment.manager.enums.UserRole;
 
