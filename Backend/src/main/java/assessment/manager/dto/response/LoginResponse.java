@@ -4,12 +4,9 @@ import assessment.manager.security.jwt.JwtResponse;
 import lombok.Builder;
 import lombok.Getter;
 
-
-@Getter
 @Builder
-public class OtpVerificationResponse {
-    private String name;
-    private String email;
-    private boolean isEnabled;
+@Getter
+public class LoginResponse {
+    private String message;
     private JwtResponse jwtResponse;
 }

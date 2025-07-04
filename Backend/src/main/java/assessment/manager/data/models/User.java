@@ -3,6 +3,8 @@ package assessment.manager.data.models;
 import assessment.manager.enums.UserRole;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.Getter;
 import org.springframework.data.annotation.Id;
@@ -16,6 +18,9 @@ import java.time.LocalDateTime;
 public class User {
     @Id
     private String id;
+
+    @NotBlank(message = "Email is required")
+    @Email(message = "Invalid email format")
     private String email;
     private String password;
     @Enumerated(EnumType.STRING)
