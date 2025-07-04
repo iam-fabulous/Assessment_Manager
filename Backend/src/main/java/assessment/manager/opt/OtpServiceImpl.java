@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.security.SecureRandom;
 import java.time.LocalDateTime;
+import java.util.Arrays;
 
 @Service
 public class OtpServiceImpl implements OtpService {
@@ -34,22 +35,51 @@ public class OtpServiceImpl implements OtpService {
         return String.valueOf(secureRandom.nextInt(10000, 100000));
     }
 
-    @Override
-    public OtpModel validateReceivedOtp(OtpModel receivedOtp, Long userId) {
-        OtpModel otpModel = otpRepository.findByOtpAndUser_Id(receivedOtp.getOtp(),userId);
-        if (otpModel == null){
-            throw new RuntimeException("otp is invalid");
-        }else if (otpModel.getExpirationTime().isBefore( LocalDateTime.now())){
-
-            otpRepository.delete(otpModel);
-            throw  new RuntimeException("otp is expired");
-
-        }
-        return otpModel;
-    }
+//    @Override
+//    public OtpModel validateReceivedOtp(OtpModel receivedOtp, Long userId) {
+//        OtpModel otpModel = otpRepository.findByOtpAndUser_Id(receivedOtp.getOtp(),userId);
+//        if (otpModel == null){
+//            throw new RuntimeException("otp is invalid");
+//        }else if (otpModel.getExpirationTime().isBefore( LocalDateTime.now())){
+//
+//            otpRepository.delete(otpModel);
+//            throw  new RuntimeException("otp is expired");
+//
+//        }
+//        return otpModel;
+//    }
 
     @Override
     public void deleteAllOtpsForUser(OtpModel otpModel) {
         otpRepository.delete(otpModel);
     }
+
+    @Override
+    public OtpModel validateReceivedOtp(String receivedOtp, Long userId) {
+        OtpModel otpModel = otpRepository.findByOtpAndUser_Id( Arrays.toString( receivedOtp.getBytes() ),userId);
+        if (otpModel == null){
+            throw new RuntimeException("otp is invalid");
+        }else if (otpModel.getExpirationTime().isBefore( LocalDateTime.now())){
+            otpRepository.delete(otpModel);
+            throw  new RuntimeException("otp is expired");
+
+        }
+        return otpModel;
+
+    }
+
+//    @Override
+//    public OtpModel validateReceivedOtp(String otp, Long userId) {
+//
+//        OtpModel otpModel = otpRepository.findByOtpAndUser_Id(otp, userId );
+//        if (otpModel == null){
+//            throw new RuntimeException("otp is invalid");
+//        }else if (otpModel.getExpirationTime().isBefore( LocalDateTime.now())){
+//
+//            otpRepository.delete(otpModel);
+//            throw  new RuntimeException("otp is expired");
+//
+//        }
+//        return otpModel;
+//    }
 }
